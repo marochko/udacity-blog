@@ -1,11 +1,11 @@
 aside {
   grid-area: sd;
-  background-color: whitesmoke;
+  background-color: brown;
   overflow: hidden;
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
-  
+  color: antiquewhite;
 }
 
 .about {
@@ -25,7 +25,6 @@ aside {
   flex-basis: 66%;
   flex-grow: 1;
   padding: 5px;
-  margin-left: 10%;
   margin-right: 10%;
 }
 

@@ -35,7 +35,6 @@ figcaption {
 .teaser h3 {
   font-size: inherit;
   text-align: inherit;
-  text-overflow: ellipsis;
   color: #242222;
   font-family: 'Poppins', sans-serif;
 }
