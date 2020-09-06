@@ -1,0 +1,155 @@
+
+@media (max-width: 1000px) {
+  .card {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display:inline-block;
+	float: left;
+  }
+	
+figure {
+  overflow: hidden;
+  margin: 0.5rem;
+  flex: 1 0 40%;
+  position: relative;
+ 
+}
+
+figure img {
+  visibility: hidden;
+}
+
+figcaption {
+  visibility: hidden;
+}
+
+.teaser {
+  overflow: hidden;
+  position:relative;
+  display:inline-block;
+  float: left;
+  margin-bottom: 10%;
+}
+
+.teaser h3 {
+  font-size: inherit;
+  text-align: inherit;
+  text-overflow: ellipsis;
+  color: #242222;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.teaser p {
+  overflow: hidden;
+  color: #242222;
+  margin-bottom: 40%;
+  position: relative;
+  display: inline-block;
+  float: left;
+  padding-bottom: 60px;
+
+}
+
+.card button {
+  background-color: darkcyan;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  width: 90%;
+  overflow: hidden;
+  position: relative;
+  display:inline-block;
+  float: left;
+  height: 50px;
+}
+
+.card button:hover {
+  background-color: brown;
+}
+
+}
+
+@media (min-width: 1001px) {
+  .card {
+    height: 220px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 10px 5%;
+    display: flex;
+  }
+}
+
+figure {
+  border-radius: 100px;
+  overflow: hidden;
+  margin: 0.5rem;
+  flex: 1 0 40%;
+  max-width: 200px;
+  position: relative;
+  margin-right: 100px;
+ 
+}
+
+figure img {
+  width: 150%;
+  position: absolute;
+  top: 0;
+}
+
+figcaption {
+  font-size: x-small;
+  padding: 10px 20px;
+  text-align: center;
+  background:#F1A843;
+  color:black;
+  font-style: italic;
+  position: absolute;
+  bottom: 0;
+  width: 25%;
+}
+
+.teaser {
+  overflow: hidden;
+  margin: 0.5rem;
+}
+
+.teaser h3 {
+  font-size: inherit;
+  text-align: inherit;
+  text-overflow: ellipsis;
+  color: #242222;
+  font-family: 'Poppins', sans-serif;
+  padding: 3px 0px;
+  margin: 0px;
+}
+
+
+.teaser p {
+  overflow: hidden;
+  color: #242222;
+  margin: 5px 0px;
+
+}
+
+.card button {
+  background-color: darkcyan;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-decoration: none;
+  position: absolute;
+  right: 5%;
+  bottom: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.card button:hover {
+  background-color: brown;
+}
